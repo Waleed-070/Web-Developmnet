@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#banner {
+
+    background:url(images/pic-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}.logo {
+    width: 200px;
+    position: absolute;
+    top: 2%;
+    left: 17%;
+}
+.banner-text {
+    text-align: center;
+    margin-left: 27%;
+    margin-right: 27%;
+    color: #fff;
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    font-family: 'Kaushan Script' , cursive;
+}
+
+.story{
+    background-color:rgb(19, 19, 104);
+    height: 65vh;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+    background-color: rgb(19, 19, 104);
+    font-weight: bold;
+    
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+p{
+    text-align: center;
+    /* background-color: (19, 19, 104);; */
+    color: #fff;
+    font-weight: bold;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.intrested{
+    
+    background-color: rgb(214, 178, 138);
+    height: 43vh;
+}
+
+.intrested h3{
+    padding: 6%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.quote{
+    height: 50vh;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 25px;
+    justify-content: center;
+    font-weight: bolder;
+    color: black;
+    padding: 50px;
+}

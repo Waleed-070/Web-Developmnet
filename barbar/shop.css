@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner {
+
+    background:url(images/kit.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 2%;
+    left: 38%;
+}
+.banner-text {
+    text-align: center;
+    margin-left: 57%;
+    margin-right: 5%;
+       color: #fff;
+    padding-top: 180px;
+}
+
+.banner-text h2 {
+    font-size: 60px;
+    /* color: #ffc786; */
+    font-family: 'Kaushan Script' , cursive;
+}
+.navbar-toggler{
+    position-top: fixed;
+    /* background-color: #ffc786; */
+}
+
+.container{
+    margin-bottom: 10px;
+}
+
+.container h1{
+    padding: 15px;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:#ff8800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col{
+    border: 3px solid black;
+   
+}
+.card{
+    color: rgb(0, 5, 5);
+    margin-left: 9%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+ @media screen and(max-width:842px)
+{
+    .card{
+        width: 9rem;
+        height: 4rem;
+    }
+    .card-body{
+        width:2rem;
+        height: 20px;
+    }
+} 
